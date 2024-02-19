@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dhtk
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0044-tenant/tkrw-pr712-0075-0044-app/devfile-sample-dhtk@sha256:3a7ad7600a68dc7e7241b5a8a9344aeb2a9d5e90d57e704b1a46a1ee2fec9175
         name: my-nodejs
         ports:
         - containerPort: 3001
