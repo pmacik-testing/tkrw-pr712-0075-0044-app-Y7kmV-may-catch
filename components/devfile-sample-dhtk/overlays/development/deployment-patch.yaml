@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dhtk
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0044-tenant/tkrw-pr712-0075-0044-app/devfile-sample-dhtk@sha256:3a7ad7600a68dc7e7241b5a8a9344aeb2a9d5e90d57e704b1a46a1ee2fec9175
+        name: my-nodejs
+        resources: {}
+status: {}
